@@ -16,7 +16,7 @@ Create table PHIM(
 	AnhPhim image,
 	ThoiLuong int,
 	QuocGia nvarchar(20),
-	NamSanXuat date,
+	NamSanXuat int,
 	DoTuoiXem int,
 	MaTheLoai varchar(6) foreign key(MaTheLoai) references THE_LOAI_PHIM,
 	NoiDung ntext
